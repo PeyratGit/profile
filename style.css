@@ -9,7 +9,7 @@ body{
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  color: #575F7D;
+  color: #393E46;
   font-size: 32px;
   font-weight: 900;
 }
@@ -40,9 +40,8 @@ img {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: #7ECE90;
+  color: #00ADB5;
 }
-
 .container {
   width: 700px;   /* This sets the width */
   margin: 40px auto; /* This automatically sets left/right margins */
@@ -97,6 +96,7 @@ li {
   box-shadow: 3px 7px 8px rgb(0 0 0 / 10%);
   padding: 40px;
   margin: 20px 0px;
+  transition: 1s;
 }
 
 div {
@@ -114,11 +114,47 @@ div {
 }
 
 .social {
-  color: rgba(0, 0, 0, 0.49);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 50px;
-}
-
-.social:hover {
-  color: #B5179E;
   transition: 1s;
 }
+
+.social.github:hover {
+  color: #24292F;
+  transition: 1s;
+}
+
+.social.linkedin:hover {
+  color: #0A66C2;
+  transition: 1s;
+}
+
+.twitch:hover {
+  color: #A970FF;
+  transition: 1s;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #00ADB5;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #00ADB5;
+  transform-origin: center;
+  transition: transform 1s ease;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+}
+
+/* comment test */
