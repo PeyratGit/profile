@@ -1,0 +1,124 @@
+
+body{
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Lora', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button-blue:hover{
+  background-color: black;
+  transition: 1s
+}
+
+img {
+  border-radius: 50px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #7ECE90;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+ul {
+  display:block;
+  list-style-type: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 3px 7px 8px rgb(0 0 0 / 10%);
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+div {
+  display: block;
+}
+
+.button-blue{
+  background-color: #3a0ca3;
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social {
+  color: rgba(0, 0, 0, 0.49);
+  font-size: 50px;
+}
+
+.social:hover {
+  color: #B5179E;
+  transition: 1s;
+}
