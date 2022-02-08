@@ -155,3 +155,29 @@ div {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
 }
+
+.night-mode-button {
+  position: relative;
+  bottom:53px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  border:3px rgba(0,0,0,0.3) solid;
+}
+
+.night-mode-background {
+  background-color: #393E46;
+}
+
+.night-mode-h1 {
+  color: white;
+}
+
+.night-mode-text {
+  color: rgba(255,255,255,0.5);
+}
+
+.night-mode-button-style {
+  background-color: #393E46;
+  color:white;
+}
