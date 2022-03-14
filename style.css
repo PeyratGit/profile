@@ -4,6 +4,7 @@ body{
   font-family: 'Lora', serif;
   font-size: 17px;
   font-weight: lighter;
+  transition: 1s;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
   color: #393E46;
   font-size: 32px;
   font-weight: 900;
+  transition: 1s;
 }
 
 p {
@@ -18,6 +20,7 @@ p {
   color: #575F7D;
   font-size: 17px;
   font-weight: lighter;
+  transition: 1s;
 }
 
 a {
@@ -26,6 +29,7 @@ a {
   color: white;
   font-weight: 600;
   font-size: 16px;
+  transition: 1s;
 }
 
 .button-blue:hover{
@@ -44,6 +48,7 @@ h2 {
 .container {
   width: 700px;   /* This sets the width */
   margin: 40px auto; /* This automatically sets left/right margins */
+  transition: 1s;
 }
 
 @media (max-width: 960px) {
@@ -100,6 +105,7 @@ li {
 
 div {
   display: block;
+  transition: 1s;
 }
 
 .button-blue{
@@ -110,6 +116,7 @@ div {
   width: 30%;
   text-align: center;
   margin: 0 auto;
+  transition: 1s;
 }
 
 .social {
@@ -154,6 +161,7 @@ div {
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
+  transition: 1s;
 }
 
 .night-mode-button {
@@ -163,21 +171,26 @@ div {
   background-color: white;
   border-radius: 50%;
   border:3px rgba(0,0,0,0.3) solid;
+  transition: 1s;
 }
 
 .night-mode-background {
   background-color: #393E46;
+  transition: 1s;
 }
 
 .night-mode-h1 {
   color: white;
+  transition: 1s;
 }
 
 .night-mode-text {
   color: rgba(255,255,255,0.5);
+  transition: 1s;
 }
 
 .night-mode-button-style {
   background-color: #393E46;
   color:white;
+  transition: 1s;
 }
